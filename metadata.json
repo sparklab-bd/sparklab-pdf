@@ -1,0 +1,6 @@
+{
+  "name": "Spark PDF",
+  "description": "Ultra-simple, 100% private client-side PDF toolkit. Merge, split, convert, organize, watermark, and lock PDFs offline in 3 easy steps.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

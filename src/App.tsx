@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FileStack, Image, Layers, Lock, Stamp } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { ErrorBoundary } from './components/ErrorBoundary';
@@ -164,6 +165,7 @@ export default function App() {
       )}
 
       <Footer />
+      <Analytics />
     </div>
   );
 }
